@@ -4,7 +4,7 @@
   "version": "0.5.26",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "node api.js && vite",
     "build": "tsc && node ./scripts/build-protected-feature-artifacts.mjs",
     "build:e2e": "tsc && vite build --mode e2e",
     "typecheck": "tsc --noEmit",
